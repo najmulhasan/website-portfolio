@@ -1,0 +1,33 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+h1{
+    font-size: 50px;
+}
+.name-color{
+    color: tomato;
+}
+.divided{
+    width: 40%;
+    float: left;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.divided image{
+    width: auto;
+}
+.header-color{
+   background-image: url("image/background.png");
+   
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    
+}
