@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto Slab', serif;
+    padding: 50px;;
 }
 
 h1{
@@ -9,15 +10,15 @@ h1{
     color: tomato;
 }
 .divided{
-    width: 40%;
+    width: 30%;
     float: left;
     margin-top: 10%;
     margin-left: 5%;
-    margin-right: 5%;
+    padding-left: 2%;
 
 }
 .divided image{
-    width: auto;
+    width: 100%;
 }
 .header-color{
    background-image: url("image/background.png");
@@ -26,8 +27,39 @@ h1{
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(lightsalmon, tomato);
-    padding: 10px 20px;
     border-radius: 5px;
+    padding: 10px,20px;
     color: white;
     
 }
+* {
+	padding: 0; margin: 0;	
+}
+
+.content1 {
+	float: left;
+    width: 50%;
+    margin-top: 30px;
+
+}
+.content2 {
+	float: left;
+    width: 50%;
+    margin-top: 30px;
+
+
+}
+
+
+
+button{
+    width: 86px;
+    height: 30px;
+    cursor: pointer;
+    padding: 10px,20px;
+}
+
+
+
+
+
